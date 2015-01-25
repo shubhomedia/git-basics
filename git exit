@@ -1,0 +1,15 @@
+[1mdiff --git a/git-basics/index.html b/git-basics/index.html[m
+[1mindex 5829ef8..606de78 100644[m
+[1m--- a/git-basics/index.html[m
+[1m+++ b/git-basics/index.html[m
+[36m@@ -37,7 +37,7 @@[m [mModernizr.load([[m
+ 	// test for media query support, if not load respond.js[m
+     test : Modernizr.mq('only all'),[m
+     // If not, load the respond.js file[m
+[31m-    nope : 'js/respond.min.js' [m
+[32m+[m[32m    nope : '_scripts/respond.min.js'[m[41m [m
+ }[m
+ ]); [m
+ </script>[m
+warning: LF will be replaced by CRLF in git-basics/index.html.
+The file will have its original line endings in your working directory.
